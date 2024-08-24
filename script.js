@@ -4,7 +4,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    if (username === 'admin' && password === 'admin') {
+    if (username === 'Sufi' && password === 'Ashu') {
         window.location.href = 'home.html';
     } else {
         alert('Invalid username or password!');
